@@ -77,6 +77,10 @@ Pre-calculated MetaPhlAn v3.0 files are retrieved from the IBDMDB repository. `0
 
 Computes cohort-averaged abundances to build a clear overview of taxonomic changes across the three phenotypes, visualizing the core differences between healthy baselines and dysbiotic states.
 
+<img width="3300" height="2100" alt="image" src="https://github.com/user-attachments/assets/42b871f5-3163-44c4-b93e-57df291c92cf" />
+
+**Fig:** Comparative Species-Level Abundance Profile Across IBD Phenotypes. Clustered bar chart showing the mean relative abundance (%) of the eight most dominant gut microbial species across study cohorts: Non-Inflammatory Bowel Disease (NonIBD, green), Crohn’s Disease (CD, orange), and Ulcerative Colitis (UC, blue). The horizontal axis grids taxa sequentially by overall dataset abundance. Individual bars within each cluster represent the cohort-wide mean abundance values calculated from underlying biological replicates. Distinct dysbiotic signatures are identifiable, characterized by a sharp expansion of specific Bacteroides members in active Crohn's disease and an inverse dominance shift in Prevotella copri across Ulcerative Colitis states.
+
 ### Step 5: Intrasample Micro-Complexity (Alpha Diversity)
 
 **Script:** `06_alpha_diversity.R`
@@ -111,7 +115,15 @@ The normality check identified normal distributions for Observed Richness (p = 0
 
 **Biological Takeaway:** The absolute count and volume distribution of bacterial species remain stable across these samples. Dysbiosis in this cohort is driven by a targeted replacement of specific microbes (taxonomic turnover) rather than a wholesale collapse of the gut's total niche capacity.
 
+<img width="2700" height="2400" alt="image" src="https://github.com/user-attachments/assets/c35aa618-448c-4f67-8975-43310dcc5f05" />
+
+**Fig:** Comprehensive Alpha Diversity Profiling Across IBD Phenotypes. Four-panel multi-metric evaluation of within-sample microbial community complexity across Non-Inflammatory Bowel Disease (NonIBD, green), Crohn’s Disease (CD, orange), and Ulcerative Colitis (UC, blue) cohorts. Individual points represent distinct biological profiling replicates overlaying box-and-whisker distributions. (A) Species Count (S): Measures absolute observed species richness. (B) Shannon Index (H'): Assesses community entropy sensitive to rare taxa dropout. (C) Simpson Index (D): Illustrates community dominance patterns driven by major taxonomic features. (D) Pielou's Evenness (J'): Tracks the structural equitability of abundance spreads across detected community components. Global statistical verification tags note variations via automated distribution-appropriate significance testing.
+
 ### 2. Beta Diversity Confirms Phenotypic Clustering (p = 0.013)
+
+<img width="2250" height="1950" alt="image" src="https://github.com/user-attachments/assets/805e9acf-de58-4f3f-a391-6151aa4ad877" />
+
+**Fig:** Beta Diversity Principal Coordinate Analysis (PCoA) of Microbial Communities. Principal Coordinate Analysis ordination plot derived from a pairwise Bray-Curtis dissimilarity matrix tracking species-level composition across study cohorts: Non-Inflammatory Bowel Disease (NonIBD, green), Crohn’s Disease (CD, orange), and Ulcerative Colitis (UC, blue). Individual points map single biological profiling replicates, with dashed lines illustrating the 95% confidence ellipse boundaries for each specific clinical group. The horizontal (Axis 1) and vertical (Axis 2) coordinates explain the top dimensions of community variance within the ecosystem. The embedded statistical annotation summarizes multivariate significance metrics derived from global permutation profiling.
 
 PCoA ordination revealed distinct sample grouping based on disease status. Clinical group membership accounted for **23.2%** of total community-wide variation (R² = 0.232, global PERMANOVA p = 0.058). The PERMDISP check was non-significant (p = 0.422), confirming uniform group variances and validating the spatial patterns in the PCoA plot.
 
@@ -120,6 +132,10 @@ PCoA ordination revealed distinct sample grouping based on disease status. Clini
 ### 3. Highly Specific Differential Biomarkers Discovered
 
 Mass feature screening and post-hoc pairwise Dunn's tests identified the key organisms driving separation on the PCoA plot (P.adj < 0.05):
+
+<img width="2550" height="2100" alt="image" src="https://github.com/user-attachments/assets/6c2c1277-1dc5-4baf-a80c-ab3c1b46beb2" />
+
+**Fig:** Relative Abundance Fluctuations of Key Identified Microbial Biomarkers. Faceted box-and-whisker plots tracking the distribution of the most significantly altered species identified through mass Kruskal-Wallis feature screening and post-hoc pairwise Dunn's testing. Individual points reflect independent biological replicates categorized into Non-Inflammatory Bowel Disease (NonIBD, green), Crohn’s Disease (CD, orange), and Ulcerative Colitis (UC, blue) cohorts. The vertical y-axes dynamically scale to track relative abundance percentages (%) per organism. Statistically verified contrasts reveal a clear division in dysbiosis styles: a pronounced expansion of specific Bacteroides species characterizes the CD landscape, whereas a distinct depletion of protective Coprococcus comes marks the UC cohort.
 
 **`Bacteroides uniformis` & `Bacteroides fragilis` (CD Drivers)**
 *B. uniformis* was significantly enriched in Crohn's Disease compared to both NonIBD controls (P.adj = 0.024) and UC (P.adj = 0.021). *B. fragilis* further highlighted the split between phenotypes, showing significant elevation exclusively in CD compared to UC (P.adj = 0.025).
