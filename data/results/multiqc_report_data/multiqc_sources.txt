@@ -1,0 +1,16 @@
+Module	Section	Sample Name	Source
+fastp	all_sections	SRR5936131	/home/ciramic/NGS/PRJNA398089/data/results/qc/CD/SRR5936131_fastp.json
+fastp	all_sections	SRR5936197	/home/ciramic/NGS/PRJNA398089/data/results/qc/NonIBD/SRR5936197_fastp.json
+fastp	all_sections	SRR5936221	/home/ciramic/NGS/PRJNA398089/data/results/qc/CD/SRR5936221_fastp.json
+fastp	all_sections	SRR5946623	/home/ciramic/NGS/PRJNA398089/data/results/qc/NonIBD/SRR5946623_fastp.json
+fastp	all_sections	SRR5946691	/home/ciramic/NGS/PRJNA398089/data/results/qc/CD/SRR5946691_fastp.json
+fastp	all_sections	SRR5946876	/home/ciramic/NGS/PRJNA398089/data/results/qc/NonIBD/SRR5946876_fastp.json
+fastp	all_sections	SRR5946902	/home/ciramic/NGS/PRJNA398089/data/results/qc/CD/SRR5946902_fastp.json
+fastp	all_sections	SRR5946910	/home/ciramic/NGS/PRJNA398089/data/results/qc/CD/SRR5946910_fastp.json
+fastp	all_sections	SRR5946975	/home/ciramic/NGS/PRJNA398089/data/results/qc/UC/SRR5946975_fastp.json
+fastp	all_sections	SRR5946993	/home/ciramic/NGS/PRJNA398089/data/results/qc/NonIBD/SRR5946993_fastp.json
+fastp	all_sections	SRR5947065	/home/ciramic/NGS/PRJNA398089/data/results/qc/UC/SRR5947065_fastp.json
+fastp	all_sections	SRR5950712	/home/ciramic/NGS/PRJNA398089/data/results/qc/UC/SRR5950712_fastp.json
+fastp	all_sections	SRR5950729	/home/ciramic/NGS/PRJNA398089/data/results/qc/NonIBD/SRR5950729_fastp.json
+fastp	all_sections	SRR5950758	/home/ciramic/NGS/PRJNA398089/data/results/qc/UC/SRR5950758_fastp.json
+fastp	all_sections	SRR5950780	/home/ciramic/NGS/PRJNA398089/data/results/qc/UC/SRR5950780_fastp.json
