@@ -12,7 +12,7 @@ This project maps out a complete, multi-stage metagenomics pipeline demonstratin
 Developed a robust raw read cleaning, automated adapter trimming, base-quality filtration (`fastp`), and host genome subtraction (`Bowtie2` against the GRCh38 human reference index) workflow to handle raw paired-end sequence archives (N=15) from the iHMP database.
 
 **Phase 2: Downstream Ecological Biostatistics & Biomarker Discovery (R Engine)**
-Due to local hardware constraints — specifically the high RAM, storage, and CPU overhead required to locally index massive databases like CHOCOPhlAn — the processing pipeline was pivotally adapted. Instead of generating profile tables locally, pre-computed, peer-reviewed MetaPhlAn v3.0 abundance files were fetched directly from the official **iHMP Inflammatory Bowel Disease Multi-omics Database (IBDMDB)** portal. A full downstream comparative biostatistical suite was engineered from scratch in R to handle abundance matrix curation, alpha/beta diversity modeling, non-parametric multi-variable permutation tests (PERMANOVA/PERMDISP), and mass feature screening for clinical biomarker discovery.
+Due to local hardware constraints — specifically the high RAM, storage, and CPU overhead required to locally index massive databases like CHOCOPhlAn the processing pipeline was pivotally adapted. Instead of generating profile tables locally, pre-computed, peer-reviewed MetaPhlAn v3.0 abundance files were fetched directly from the official **iHMP Inflammatory Bowel Disease Multi-omics Database (IBDMDB)** portal. A full downstream comparative biostatistical suite was engineered from scratch in R to handle abundance matrix curation, alpha/beta diversity modeling, non-parametric multi-variable permutation tests (PERMANOVA/PERMDISP), and mass feature screening for clinical biomarker discovery.
 
 ---
 
@@ -63,7 +63,7 @@ The pipeline uses `prefetch` and `fasterq-dump` (SRA Toolkit) to fetch raw FASTQ
 
 **Script:** `03_host_removal.py`
 
-Reads are aligned against the human reference genome index (GRCh38) using `Bowtie2`. By streaming files and writing output summaries to `/dev/null`, the module avoids saving heavy intermediary SAM/BAM alignments — accurately logging sample quality while preserving local storage capacity. Achieves a ~0.00% human sequence validation rate.
+Reads are aligned against the human reference genome index (GRCh38) using `Bowtie2`. By streaming files and writing output summaries to `/dev/null`, the module avoids saving heavy intermediary SAM/BAM alignments, accurately logging sample quality while preserving local storage capacity. Achieves a ~0.00% human sequence validation rate.
 
 ### Step 3: Consortium Matrix Retrieval & Curation
 
