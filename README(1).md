@@ -90,8 +90,8 @@ human-gut-shotgun-metagenomics/
         ▼                                     ▼
 [MetaPhlAn v3.0: Taxonomic Profiling]   [HUMAnN3: Functional Profiling]
         │                                     │
-   ┌────┴────┐                           ┌────┴────┐
-   ▼         ▼                           ▼         ▼
+   ┌────┴────┐─────────────┐             ┌────┴────┐
+   ▼         ▼             ▼             ▼         ▼
 [Alpha     [Beta       [MaAsLin2     [Pathway   [Pathway
 Diversity] Diversity]  Biomarkers]   Stats]     Boxplots]
 ```
