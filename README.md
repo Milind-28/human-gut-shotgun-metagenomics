@@ -150,16 +150,11 @@ All statistical tables, filtered matrices, and publication-ready figures are sav
 
 ---
 
-## Key Results & Biostatistical Insights
+## Key Results
 
 ### 1. Alpha Diversity
 
 Early pilot trials (N = 15) yielded non-significant alpha diversity variations (p > 0.05), incorrectly suggesting uniform within-sample ecological complexity. Scaling to the complete HMP2 cohort (N = 1,605) overturned this inference entirely — a direct demonstration of the critical role of statistical power (1 − β) in high-variance human microbiome data.
-
-<figure>
-<img src="https://github.com/user-attachments/assets/11366294-3d5c-4424-9b67-749bb5080f99" alt="Four-panel alpha diversity boxplots across IBD cohorts" width="100%"/>
-<figcaption><strong>Fig. 1.1 — Comprehensive Alpha Diversity Profiling Across IBD Phenotypes.</strong> Four-panel multi-metric evaluation of within-sample microbial community complexity across NonIBD (green), CD (orange), and UC (blue) cohorts. Individual points represent distinct biological profiling replicates overlaying box-and-whisker distributions. <strong>(A)</strong> Species Count (S): absolute observed species richness. <strong>(B)</strong> Shannon Index (H′): community entropy sensitive to rare taxa dropout. <strong>(C)</strong> Simpson Index (D): community dominance patterns driven by major taxonomic features. <strong>(D)</strong> Pielou's Evenness (J′): structural equitability of abundance spreads across detected community components. Global statistical significance assessed via distribution-appropriate testing.</figcaption>
-</figure>
 
 <br>
 
@@ -187,10 +182,6 @@ Early pilot trials (N = 15) yielded non-significant alpha diversity variations (
 
 Pairwise Bray-Curtis dissimilarity matrices evaluated via PERMANOVA (`adonis2`, 999 permutations) revealed highly significant community separation (p = 0.001) alongside a compressed effect size (R² = 0.0094).
 
-<figure>
-<img src="https://github.com/user-attachments/assets/c7ed2770-67be-4c10-8c14-c885d9c828d0" alt="Early pilot PCoA ordination plot" width="100%"/>
-<figcaption><strong>Fig. 2.1 — Pilot-Scale Beta Diversity PCoA of Microbial Communities.</strong> PCoA ordination derived from a pairwise Bray-Curtis dissimilarity matrix tracking species-level composition across NonIBD (green), CD (orange), and UC (blue). Individual points map single biological profiling replicates; dashed ellipses mark 95% confidence boundaries per cohort. Axes indicate the proportion of total community variance captured by the first two principal coordinates. Embedded annotation summarizes global permutation-based multivariate significance metrics.</figcaption>
-</figure>
 
 <br>
 
@@ -222,10 +213,6 @@ Pairwise Bray-Curtis dissimilarity matrices evaluated via PERMANOVA (`adonis2`, 
 
 MaAsLin2 multivariable linear models (TSS normalization, LOG transformation, prevalence ≥ 10%, q < 0.25) isolated species-level biomarkers significantly enriched or depleted relative to the NonIBD baseline.
 
-<figure>
-<img src="https://github.com/user-attachments/assets/6980ce5b-003f-4209-808f-63db32a25bb5" alt="Relative abundance boxplots of key microbial biomarkers" width="100%"/>
-<figcaption><strong>Fig. 3.1 — Relative Abundance Fluctuations of Key Identified Microbial Biomarkers.</strong> Faceted box-and-whisker plots tracking the most significantly altered species identified through mass Kruskal-Wallis feature screening and post-hoc pairwise Dunn's testing. Individual points reflect independent biological replicates across NonIBD (green), CD (orange), and UC (blue) cohorts. Y-axes scale dynamically to relative abundance (%). A pronounced expansion of specific <em>Bacteroides</em> species characterises the CD landscape, whereas a distinct depletion of protective <em>Coprococcus comes</em> marks the UC cohort.</figcaption>
-</figure>
 
 <br>
 
