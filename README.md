@@ -178,7 +178,7 @@ Early pilot trials (N = 15) yielded non-significant alpha diversity variations (
 
 ---
 
-### 2. Beta Diversity — The Variance Paradox
+### 2. Beta Diversity
 
 Pairwise Bray-Curtis dissimilarity matrices evaluated via PERMANOVA (`adonis2`, 999 permutations) revealed highly significant community separation (p = 0.001) alongside a compressed effect size (R² = 0.0094).
 
