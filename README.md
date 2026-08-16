@@ -1,6 +1,6 @@
 # Comparative Metagenomic & Functional Profiling of the Human Gut Microbiome Across IBD Phenotypes
 
-> A high-throughput, end-to-end computational biology framework inspired from the 2024 paper titled <strong> "Meta-analysis reveals obesity associated gut microbial alteration patterns and reproducible contributors of functional shift" </strong> for isolating species-level taxonomic signatures and functional metabolic profiles of the human gut microbiota across three clinical cohorts <strong>NonIBD</strong>, <strong>Crohn's Disease (CD)</strong>, and <strong>Ulcerative Colitis (UC)</strong> using the HMP2 (iHMP) IBD Multi-omics Database (IBDMDB).
+> A high-throughput, end-to-end computational biology framework inspired from the 2024 paper titled <strong> "Meta-analysis reveals obesity associated gut microbial alteration patterns and reproducible contributors of functional shift" </strong> https://doi.org/10.1080/19490976.2024.2304900 for this work for isolating species-level taxonomic signatures and functional metabolic profiles of the human gut microbiota across three clinical cohorts <strong>NonIBD</strong>, <strong>Crohn's Disease (CD)</strong>, and <strong>Ulcerative Colitis (UC)</strong> using the HMP2 (iHMP) IBD Multi-omics Database (IBDMDB).
 
 **Author:** Milind Shrivastava | M.Sc. Biotechnology, Thapar Institute of Engineering and Technology (TIET) | CGPA: 9.15 | GATE 2026 Qualified
 
