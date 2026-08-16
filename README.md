@@ -1,6 +1,6 @@
 # Comparative Metagenomic & Functional Profiling of the Human Gut Microbiome Across IBD Phenotypes
 
-> A high-throughput, end-to-end computational biology framework for isolating species-level taxonomic signatures and functional metabolic profiles of the human gut microbiota across three clinical cohorts <strong>NonIBD</strong>, <strong>Crohn's Disease (CD)</strong>, and <strong>Ulcerative Colitis (UC)</strong> using the HMP2 (iHMP) IBD Multi-omics Database (IBDMDB).
+> A high-throughput, end-to-end computational biology framework inspired from the 2024 paper titled <strong> "Meta-analysis reveals obesity associated gut microbial alteration patterns and reproducible contributors of functional shift" </strong> for isolating species-level taxonomic signatures and functional metabolic profiles of the human gut microbiota across three clinical cohorts <strong>NonIBD</strong>, <strong>Crohn's Disease (CD)</strong>, and <strong>Ulcerative Colitis (UC)</strong> using the HMP2 (iHMP) IBD Multi-omics Database (IBDMDB).
 
 **Author:** Milind Shrivastava | M.Sc. Biotechnology, Thapar Institute of Engineering and Technology (TIET) | CGPA: 9.15 | GATE 2026 Qualified
 
@@ -205,7 +205,7 @@ Pairwise Bray-Curtis dissimilarity matrices evaluated via PERMANOVA (`adonis2`, 
 | NonIBD vs. Ulcerative Colitis | 0.0054 | 0.001 |
 | Crohn's Disease vs. Ulcerative Colitis | 0.0056 | 0.001 |
 
-**Interpretation:** The R² drop from the pilot framework (23.2%) to the full cohort (0.94%) is a classic hallmark of population-scale human cohort studies. Massive unmeasured confounders — dietary fluctuations, antibiotic histories, age, genetics — introduce overwhelming residual noise. However, with residual df = 1,602, the F-statistic remains robustly elevated (F = 7.62, p = 0.001), confirming that structural separation across healthy, CD, and UC phenotypes is systematic and reproducible.
+**Interpretation:** The R² drop from the pilot framework (23.2%) to the full cohort (0.94%) is a classic hallmark of population-scale human cohort studies. Massive unmeasured confounders like dietary fluctuations, antibiotic histories and age, genetics introduce overwhelming residual noise. However, with residual df = 1,602, the F-statistic remains robustly elevated (F = 7.62, p = 0.001), confirming that structural separation across healthy, CD, and UC phenotypes is systematic and reproducible.
 
 ---
 
